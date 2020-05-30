@@ -1,3 +1,6 @@
+<?php
+   include ('database.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -23,6 +26,9 @@
       <div class="login-content" data-aos="fade-up-left">
 
          <form action="login.php" method="post">
+            <?php
+               include ('errors.php');
+            ?>
             <img src="images/avatar.svg">
             <h2 class="title">Welcome!</h2>
 
@@ -33,7 +39,7 @@
 
                <div class="div">
                   <h5>Username</h5>
-                  <input type="text" class="input">
+                  <input type="text" class="input" name="username">
                </div>
 
             </div>
@@ -50,7 +56,7 @@
             </div>
 
             <a class="forgot" href="#">Forgot Password?</a>
-            <input type="submit" class="btn" value="Login">
+            <input type="submit" class="btn" value="Login" name="login_user">
 
             <span class="dont">Dont have an account? </span>
             <a class="create" href="register.php"> Create an account.</a>

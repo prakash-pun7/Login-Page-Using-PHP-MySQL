@@ -1,3 +1,6 @@
+<?php
+include ('database.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -23,6 +26,8 @@
       <div class="register-content" data-aos="fade-up-left">
 
          <form action="register.php" method="post">
+
+            <?php include ('errors.php');?>
             <h2 class="create">Create an account</h2>
 
             <div class="input-div one">
@@ -32,7 +37,7 @@
 
                <div class="div">
                   <h5>Email</h5>
-                  <input type="email" class="input">
+                  <input type="email" class="input" name="email">
                </div>
 
             </div>
@@ -44,7 +49,7 @@
 
                <div class="div">
                   <h5>Username</h5>
-                  <input type="text" class="input">
+                  <input type="text" class="input" name="username">
                </div>
 
             </div>
@@ -61,7 +66,7 @@
                <span onclick="myFunction(this)" class="fas fa-eye field-icon"></span>
             </div>
 
-            <input type="submit" class="btn" value="Continue">
+            <input type="submit" class="btn" value="Continue" name="register_user">
 
             <a class="register" href="login.php"> Already have an account?</a>
 
