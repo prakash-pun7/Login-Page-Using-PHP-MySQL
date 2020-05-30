@@ -22,7 +22,7 @@
 
       <div class="login-content" data-aos="fade-up-left">
 
-         <form action="login.php">
+         <form action="login.php" method="post">
             <img src="images/avatar.svg">
             <h2 class="title">Welcome!</h2>
 
@@ -44,8 +44,9 @@
                </div>
                <div class="div">
                   <h5>Password</h5>
-                  <input type="password" class="input">
+                  <input type="password" class="input" id="myInput" name="password">
                </div>
+               <span onclick="myFunction(this)" class="fas fa-eye field-icon"></span>
             </div>
 
             <a class="forgot" href="#">Forgot Password?</a>

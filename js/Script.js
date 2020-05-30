@@ -17,7 +17,8 @@ inputs.forEach((input) => {
    input.addEventListener("blur", remcl);
 });
 
-function myFunction() {
+function myFunction(z) {
+   z.classList.toggle("fa-eye-slash");
    var x = document.getElementById("myInput");
    if (x.type === "password") {
       x.type = "text";
@@ -28,12 +29,3 @@ function myFunction() {
 
 AOS.init();
 
-$(".toggle-password").click(function () {
-   $(this).toggleClass("fa-eye fa-eye-slash");
-   var input = $($(this).attr("toggle"));
-   if (input.attr("type") == "password") {
-      input.attr("type", "text");
-   } else {
-      input.attr("type", "password");
-   }
-});

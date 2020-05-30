@@ -79,7 +79,7 @@ form {
 .login-content .input-div {
    position: relative;
    display: grid;
-   grid-template-columns: 7% 93%;
+   grid-template-columns: 7% 87% 6%;
    margin: 25px 0;
    padding: 5px 0;
    border-bottom: 2px solid #d9d9d9;
@@ -99,7 +99,7 @@ form {
 .register-content .input-div {
    position: relative;
    display: grid;
-   grid-template-columns: 7% 93%;
+   grid-template-columns: 7% 87% 6%;
    margin: 25px 0;
    padding: 5px 0;
    border-bottom: 2px solid #d9d9d9;
@@ -180,7 +180,6 @@ form {
    padding: 0.5rem 0.7rem;
    font-size: 1.2rem;
    color: white;
-
    font-family: 'poppins', sans-serif;
 }
 
@@ -246,15 +245,14 @@ a:hover {
 }
 
 .field-icon {
-   /* float: right; */
-   margin-left: 20rem;
    color: #d9d9d9;
    font-size: 18px;
    padding-top: 15px;
 }
 
 .field-icon:hover{
-   color: #00b0f4;
+   color:#00b0f4;
+   cursor: pointer;
 }
 
 .policy {

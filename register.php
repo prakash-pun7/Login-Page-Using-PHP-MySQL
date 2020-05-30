@@ -22,7 +22,7 @@
 
       <div class="register-content" data-aos="fade-up-left">
 
-         <form action="register.php">
+         <form action="register.php" method="post">
             <h2 class="create">Create an account</h2>
 
             <div class="input-div one">
@@ -54,10 +54,11 @@
                   <i class="fas fa-lock"></i>
                </div>
                <div class="div">
+
                   <h5>Password</h5>
                   <input type="password" class="input" id="myInput" name="password">
-                  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                </div>
+               <span onclick="myFunction(this)" class="fas fa-eye field-icon"></span>
             </div>
 
             <input type="submit" class="btn" value="Continue">
@@ -67,12 +68,11 @@
             <p class="policy">By registering, you agree to Prakash's &nbsp;<a class="terms" href="">Terms of Service &nbsp;</a>and &nbsp;<a class="terms" href="">Privacy and Policy.</a></p>
 
          </form>
-         <!-- <input type="checkbox" onclick="myFunction()"> -->
       </div>
 
    </div>
 
-   <script src="js/Script.js"></script>
+   <script src="js/script.js"></script>
 
 </body>
 
