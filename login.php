@@ -20,7 +20,7 @@
          <img src="images/login1.svg">
       </div>
 
-      <div class="login-content">
+      <div class="login-content" data-aos="fade-up-left">
 
          <form action="login.php">
             <img src="images/avatar.svg">
@@ -51,7 +51,7 @@
             <a class="forgot" href="#">Forgot Password?</a>
             <input type="submit" class="btn" value="Login">
 
-            <span>Dont have an account? </span>
+            <span class="dont">Dont have an account? </span>
             <a class="create" href="register.php"> Create an account.</a>
 
          </form>

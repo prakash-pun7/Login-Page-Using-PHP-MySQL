@@ -241,8 +241,20 @@ a:hover {
    transition: .3s;
 }
 
-.login-content span {
+.login-content .dont {
    color: #d9dde4;
+}
+
+.field-icon {
+   /* float: right; */
+   margin-left: 20rem;
+   color: #d9d9d9;
+   font-size: 18px;
+   padding-top: 15px;
+}
+
+.field-icon:hover{
+   color: #00b0f4;
 }
 
 .policy {

@@ -5,7 +5,9 @@
    <title>Register</title>
    <link rel="stylesheet" href="css/Style.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -18,7 +20,7 @@
          <img src="images/register.svg">
       </div>
 
-      <div class="register-content" data-aos="fade-up" data-aos-delay="300">
+      <div class="register-content" data-aos="fade-up-left">
 
          <form action="register.php">
             <h2 class="create">Create an account</h2>
@@ -53,7 +55,8 @@
                </div>
                <div class="div">
                   <h5>Password</h5>
-                  <input type="password" class="input" id="myInput">
+                  <input type="password" class="input" id="myInput" name="password">
+                  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                </div>
             </div>
 
@@ -64,7 +67,7 @@
             <p class="policy">By registering, you agree to Prakash's &nbsp;<a class="terms" href="">Terms of Service &nbsp;</a>and &nbsp;<a class="terms" href="">Privacy and Policy.</a></p>
 
          </form>
-         <input type="checkbox" onclick="myFunction()">
+         <!-- <input type="checkbox" onclick="myFunction()"> -->
       </div>
 
    </div>
