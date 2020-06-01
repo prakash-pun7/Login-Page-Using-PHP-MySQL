@@ -39,7 +39,7 @@
 
                <div class="div">
                   <h5>Username</h5>
-                  <input type="text" class="input" name="username">
+                  <input type="text" class="input" name="username" required>
                </div>
 
             </div>
@@ -50,7 +50,7 @@
                </div>
                <div class="div">
                   <h5>Password</h5>
-                  <input type="password" class="input" id="myInput" name="password">
+                  <input type="password" class="input" id="myInput" name="password" required>
                </div>
                <span onclick="myFunction(this)" class="fas fa-eye field-icon"></span>
             </div>
@@ -66,7 +66,7 @@
       </div>
    </div>
 
-   <script src="js/main.js"></script>
+   <script src="js/script.js"></script>
 
 </body>
 
