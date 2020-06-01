@@ -27,7 +27,7 @@
 
          <form action="login.php" method="post">
             <?php
-               include ('errors.php');
+               // include ('errors.php');
             ?>
             <img src="images/avatar.svg">
             <h2 class="title">Welcome!</h2>

@@ -6,7 +6,6 @@ include ('database.php');
 
 <head>
    <title>Register</title>
-   <link rel="stylesheet" href="css/Style.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -27,7 +26,9 @@ include ('database.php');
 
          <form action="register.php" method="post">
 
-            <?php include ('errors.php');?>
+            <?php 
+            // include ('errors.php');
+            ?>
             <h2 class="create">Create an account</h2>
 
             <div class="input-div one">
